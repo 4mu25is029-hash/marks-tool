@@ -6,3 +6,5 @@ Laboratory project for Project Management (with Git), 1BCSL307.
 ## Usage
     cp .env.example .env
     python3 app.py
+## PASS_MARK Setting
+The PASS_MARK setting defines the minimum marks required for a student to pass.
