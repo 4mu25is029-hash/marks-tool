@@ -13,8 +13,9 @@ def main():
     print("Lowest :", lowest(MARKS))
     pass_mark = int(settings["PASS_MARK"])
     print("Passed :", pass_count(MARKS, pass_mark), "of", len(MARKS))
+    
+    percentage = (pass_count(MARKS, pass_mark) / len(MARKS)) * 100
+    print("Percentage:", percentage, "%")
 
 if __name__ == "__main__":
     main()
-
-
